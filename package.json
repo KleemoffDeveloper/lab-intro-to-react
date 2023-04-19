@@ -2,6 +2,7 @@
   "name": "react-intro-lab",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kleemoffdeveloper.github.io/lab-intro-to-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cypress open",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
