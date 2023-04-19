@@ -1,3 +1,8 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -8,4 +13,27 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+.nav-list {
+  background-color: gray;
+  display: inline-flex;
+  width: 100%;
+  padding: 25px;
+  margin: 0;
+}
+
+.logo {
+  /* justify-content: center; */
+  width: 36px;
+}
+
+.nav-list li {
+  margin: 15px;
+  display: flex;
+}
+
+.nav-list a {
+  color: cyan;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
