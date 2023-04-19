@@ -14,11 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "cypress open",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +41,7 @@
   "devDependencies": {
     "cypress": "^9.7.0",
     "cypress-react-selector": "^2.3.11",
-    "cypress-watch-and-reload": "^1.5.4"
+    "cypress-watch-and-reload": "^1.5.4",
+    "gh-pages": "^5.0.0"
   }
 }
