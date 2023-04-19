@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lab-intro-to-react/static/css/main.cd1065bc.chunk.css",
+    "main.js": "/lab-intro-to-react/static/js/main.548adada.chunk.js",
+    "main.js.map": "/lab-intro-to-react/static/js/main.548adada.chunk.js.map",
+    "runtime-main.js": "/lab-intro-to-react/static/js/runtime-main.918b3fd3.js",
+    "runtime-main.js.map": "/lab-intro-to-react/static/js/runtime-main.918b3fd3.js.map",
+    "static/js/2.819b1e8d.chunk.js": "/lab-intro-to-react/static/js/2.819b1e8d.chunk.js",
+    "static/js/2.819b1e8d.chunk.js.map": "/lab-intro-to-react/static/js/2.819b1e8d.chunk.js.map",
+    "index.html": "/lab-intro-to-react/index.html",
+    "static/css/main.cd1065bc.chunk.css.map": "/lab-intro-to-react/static/css/main.cd1065bc.chunk.css.map",
+    "static/js/2.819b1e8d.chunk.js.LICENSE.txt": "/lab-intro-to-react/static/js/2.819b1e8d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.918b3fd3.js",
+    "static/js/2.819b1e8d.chunk.js",
+    "static/css/main.cd1065bc.chunk.css",
+    "static/js/main.548adada.chunk.js"
+  ]
+}
