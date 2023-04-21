@@ -1,6 +1,7 @@
 * {
   list-style: none;
   text-decoration: none;
+  padding: 0;
 }
 
 body {
@@ -15,12 +16,31 @@ body,
   width: 100%;
 }
 
-.nav-list {
-  background-color: gray;
-  display: inline-flex;
+button {
+  padding: 1px 5px 1px 5px;
+}
+
+nav {
+  background-color: rgb(178, 227, 255);
   width: 100%;
-  padding: 25px;
+  float: inline-end;
+}
+
+/* Meta
+Uber
+Google
+Amazon
+Peleton
+Apple */
+
+.app-body {
+  display: grid;
+}
+
+.nav-list {
+  display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -36,4 +56,58 @@ body,
 .nav-list a {
   color: cyan;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section {
+  margin: 25px;
+  border: 1px solid black;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+.contact-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: fit-content;
+
+  margin: 25px;
+}
+
+.contact-list {
+  display: grid;
+  padding: 0;
+  justify-content: center;
+}
+
+.contact-list > .contact-card {
+  border: 1px solid black;
+  padding-right: 125px;
+}
+
+.contact-info-list {
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.contact-body {
+  margin-bottom: 0;
+}
+
+.user-profile {
+  padding-bottom: 100px;
+}
+
+.post-list {
+  display: grid;
+}
+
+.post {
+  text-align: center;
+  border: 1px solid black;
+  margin: 25px;
 }
